@@ -1,0 +1,7 @@
+print("Welcome to Cake Price Distribution")
+num=int(input(("Enter The Total Number of the Persons:")))
+price=int(input("Enter The price of the Cake:"))
+name=input("Enter the flaver name of the cake:")
+per=price/num
+new_value=int(per)
+print(f"The Amount of each person for {name} cake is:",new_value)

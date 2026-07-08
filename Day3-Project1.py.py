@@ -1,42 +1,12 @@
-# print("welcome to Your Love Score cheking")
-# king=input("Enter King name:")
-# queen=input("Enter your Queen name:")
-# combine=king+queen
-# new_str=combine.lower()
-# #True
-# t=new_str.count("t")
-# r=new_str.count("r")
-# u=new_str.count("u")
-# e=new_str.count("e")
-# true=t+r+u+e
-
-# l=new_str.count("l")
-# o=new_str.count("o")
-# v=new_str.count("v")
-# e=new_str.count("e")
-# love=l+o+v+e
-
-# result=int(str(true)+str(love))
-
-# if (result<10) or (result>90):
-#     print("coke")
-# elif result>40 and result<50:
-#     print("good")
-# else:
-#     print("z")
-
-
-
-
 #code for wampus problem sloving 
 print("-------welcome to Gold Hunting Game-------")
-print("You have the Options to Go Left and right only")
-choice=input("Enter your First Move:L/R")
-if choice=="L":
-    print("Your are out!!!!!")
+print("You have the Options to Go Left or Right only")
+choice=input("Enter your First Move:Left / Right ")
+if choice=="Left":
+    print("Your are out.....!!!!!")
     exit()
-elif choice=="R":
-    print("You are Suceed first Move ????")
+elif choice=="Right":
+    print("You are Suceed in First Thread......***")
     choice2=int(input("Enter Your Choice: 1.Smell 2.Cold 3.Nothing"))
     if choice2==1:
         print("you are out due to drinage......")
